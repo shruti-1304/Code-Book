@@ -1,10 +1,13 @@
 /* Container to center the card */
+*{
+  color:"black"
+}
 .container {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom, #9f81c7, #430c7a);
+  background: linear-gradient(to bottom, #9f81c7, #e3dee7);
   padding: 16px;
   animation: fadeIn 1s ease-in-out;
 }
@@ -13,7 +16,7 @@
 .card {
   width: 100%;
   max-width: 400px;
-  background: linear-gradient(to bottom, #401291, #7c54ac); 
+  background: linear-gradient(to bottom, #ddd3f1, #7c54ac); 
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -47,7 +50,7 @@
 
 .description {
   font-size: 14px;
-  color: #ffffff;
+  color: #0a0a0a;
 }
 
 /* Input fields styling */
@@ -65,7 +68,7 @@
 
 .input-group input {
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #0f0f0f;
   border-radius: 4px;
   font-size: 16px;
   transition: border-color 0.3s ease;

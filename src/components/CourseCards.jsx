@@ -141,7 +141,7 @@ function CourseCards({ searchTerm }) {
 		<div
 			className="course-page"
 			id="course-page">
-			<div className="courses">
+			<div className="courses h-[10rem]">
 				{filteredCourses.length > 0 ? (
 					<>
 						{filteredCourses.map((course, index) => (

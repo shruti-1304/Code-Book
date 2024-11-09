@@ -53,7 +53,7 @@ function Navbar() {
   </button>
   <button className="btn">
     <a href="/login">
-      Log-in <i className="fa-solid fa-arrow-right"></i>
+      Log-in <i className="fa-solid fa-arrow-right "></i>
     </a>
   </button></>) : <button className="btn" onClick={() => dispatch(logout(navigate))}>
               <div>
